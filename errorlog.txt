@@ -1,0 +1,4 @@
+29/09/2023 5:13:22 p. m.;baragent.InvokeSetMonitorEstado;Error al invocar el método. El subproceso de destino ya no existe.;   en System.Windows.Forms.Control.WaitForWaitHandle(WaitHandle waitHandle)
+   en System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   en System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   en ws_ami.baragent.InvokeSetMonitorEstado(monitor control, String estado)
